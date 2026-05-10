@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <!-- Outer ring -->
+  <circle cx="60" cy="60" r="56" stroke="#f5f5f4" stroke-width="3"/>
+  <!-- Inner arc — top left, suggesting motion/systems -->
+  <path d="M 36 42 A 30 30 0 0 1 84 42" stroke="#d4a574" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <!-- Vertical stem of the T -->
+  <line x1="60" y1="42" x2="60" y2="88" stroke="#f5f5f4" stroke-width="3" stroke-linecap="round"/>
+  <!-- Node dots — system nodes -->
+  <circle cx="36" cy="42" r="4" fill="#d4a574"/>
+  <circle cx="84" cy="42" r="4" fill="#d4a574"/>
+  <circle cx="60" cy="88" r="4" fill="#f5f5f4"/>
+</svg>

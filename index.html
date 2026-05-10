@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Tola — Full-stack AI systems for Irish business</title>
 <meta name="description" content="We design, build, and operate AI infrastructure for Ireland's leading SMEs. Voice agents, intelligent back-offices, and end-to-end automation. Not a chatbot — a complete system.">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Instrument+Serif&display=swap" rel="stylesheet">
@@ -47,18 +48,7 @@
   }
   .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 68px; }
   .logo { display: flex; align-items: center; gap: 10px; font-weight: 500; font-size: 17px; letter-spacing: -0.01em; }
-  .logo-mark {
-    width: 22px; height: 22px;
-    border: 1.5px solid var(--text);
-    border-radius: 50%;
-    position: relative;
-  }
-  .logo-mark::after {
-    content: ''; position: absolute;
-    top: 50%; left: 50%; width: 8px; height: 8px;
-    background: var(--text); border-radius: 50%;
-    transform: translate(-50%, -50%);
-  }
+  .logo-mark { width: 28px; height: 28px; }
   .nav-links { display: flex; gap: 36px; align-items: center; font-size: 14px; color: var(--text-muted); }
   .nav-links a:hover { color: var(--text); transition: color 0.15s; }
   .nav-cta {
@@ -290,7 +280,7 @@
 <nav>
   <div class="container nav-inner">
     <div class="logo">
-      <div class="logo-mark"></div>
+      <img src="/logo.svg" alt="Tola" class="logo-mark">
       Tola
     </div>
     <div class="nav-links">
