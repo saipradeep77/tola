@@ -1,0 +1,11 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    { "source": "/clinics", "destination": "/", "permanent": false },
+    { "source": "/solar", "destination": "/", "permanent": false },
+    { "source": "/accountants", "destination": "/", "permanent": false },
+    { "source": "/property", "destination": "/", "permanent": false },
+    { "source": "/auto", "destination": "/", "permanent": false }
+  ]
+}
