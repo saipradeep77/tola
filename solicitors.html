@@ -135,7 +135,9 @@
   .price-card.featured::before { content: 'Recommended'; position: absolute; top: -11px; left: 32px; background: var(--accent); color: var(--bg); font-size: 11px; padding: 4px 10px; border-radius: 100px; font-weight: 500; letter-spacing: 0.04em; }
   .price-name { font-size: 14px; color: var(--text-muted); margin-bottom: 8px; letter-spacing: 0.04em; text-transform: uppercase; }
   .price-amount { font-size: 38px; font-weight: 400; letter-spacing: -0.02em; line-height: 1; margin-bottom: 4px; }
+  .price-period { font-size: 18px; color: var(--text-muted); font-weight: 400; }
   .price-recur { color: var(--text-muted); font-size: 14px; margin-bottom: 24px; }
+  .price-setup { display: inline-block; font-size: 12px; color: var(--text-faint); background: rgba(255,255,255,0.05); border: 1px solid var(--border); padding: 4px 10px; border-radius: 100px; margin-bottom: 20px; }
   .price-desc { color: var(--text-muted); font-size: 14px; line-height: 1.55; padding-bottom: 24px; border-bottom: 1px solid var(--border); margin-bottom: 24px; }
   .price-features { list-style: none; margin-bottom: 28px; }
   .price-features li { font-size: 14px; padding: 8px 0; display: flex; gap: 10px; align-items: flex-start; }
@@ -387,8 +389,9 @@
     <div class="pricing-grid">
       <div class="price-card">
         <div class="price-name">Pilot</div>
-        <div class="price-amount">€2,500</div>
-        <div class="price-recur">+ €500/month operating</div>
+        <div class="price-amount">€500<span class="price-period">/month</span></div>
+        <div class="price-recur">Everything included. Cancel anytime.</div>
+        <div class="price-setup">One-time setup: €2,500</div>
         <p class="price-desc">After-hours intake only. Designed to prove the model in 30 days, on the calls you're already losing.</p>
         <ul class="price-features">
           <li>Voice intake outside business hours</li>
@@ -402,8 +405,9 @@
 
       <div class="price-card featured">
         <div class="price-name">Operations</div>
-        <div class="price-amount">€4,500</div>
-        <div class="price-recur">+ €1,000/month operating</div>
+        <div class="price-amount">€1,000<span class="price-period">/month</span></div>
+        <div class="price-recur">Everything included. Cancel anytime.</div>
+        <div class="price-setup">One-time setup: €4,500</div>
         <p class="price-desc">Full intake system including business hours overflow, conflict checks, and follow-up sequences.</p>
         <ul class="price-features">
           <li>24/7 voice intake — every call answered</li>
